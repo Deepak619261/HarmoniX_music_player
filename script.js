@@ -9,12 +9,12 @@ let songitems=Array.from(document.getElementsByClassName('songItem'));
 let mastersongName=document.getElementById('mastersongName');
 
 let songs=[
-    {songName:"Dost Banke  by Gurnazar, Rahat Fateh Ali Khan",filePath:"song/0.mp3",coverPath: "covers/1.jpg"},
+    {songName:"Dost Banke  by Gurnazar",filePath:"song/0.mp3",coverPath: "covers/1.jpg"},
     {songName:"Ishq (From Lost;Found)",filePath:"song/1.mp3",coverPath: "covers/2.jpg"},
-    {songName:"Samjhawan Humpty Sharma Ki Dulhania",filePath:"song/2.mp3",coverPath: "covers/3.jpg"},
+    {songName:"Samjhawan Humpty Sharma",filePath:"song/2.mp3",coverPath: "covers/3.jpg"},
     {songName:"tujhe bhula diya - mohit",filePath:"song/3.mp3",coverPath: "covers/4.jpg"},
-    {songName:" Aasa Kooda from Think Indie  ",filePath:"song/4.mp3",coverPath: "covers/5.jpg"},
-    {songName:"Soulmate - arijit singh ft badshah",filePath:"song/5.mp3",coverPath: "covers/6.jpg"},
+    {songName:" Aasa Kooda from Think ",filePath:"song/4.mp3",coverPath: "covers/5.jpg"},
+    {songName:"Soulmate - arijit singh",filePath:"song/5.mp3",coverPath: "covers/6.jpg"},
 
 ];
 

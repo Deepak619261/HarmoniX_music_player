@@ -7,10 +7,13 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav{
     font-family:'Nunito',sans-serif;
+    width: 100%;
+    background-color: black;
 }
 
 nav ul{
@@ -18,12 +21,15 @@ nav ul{
     align-items:center;
     list-style-type: none;
     height: 50px;
-    background-color: black;color: white;
+    color: white;
+    margin: 0;
+    padding: 0 15px;
+    width: 100%;
 
 }
 
 nav ul li{
-    padding: 0 32px;
+    padding: 0px 32px;
 }
 
 .brand img{
@@ -121,4 +127,75 @@ margin: 0 23px;
 }
 h1 {
     margin-left: 140px; /* Adjust the value as needed */
+}
+
+
+@media (max-width: 778px) {
+  
+    .bottom {
+        padding: 20px 0;
+    }
+
+    .songInfo {
+        flex-direction: row;
+        margin-bottom: 15px; /* Increased margin for more space */
+    }
+
+    #myprogressBar {
+        width: 80%;
+    }
+
+    .icons {
+        max-width: 150px;
+    }
+
+    .icons i {
+        font-size: 28px;
+    }
+
+    .songName {
+        margin-right: 10px; /* Add more space between the song name and play/pause button */
+    }
+}
+
+
+
+@media (max-width: 778px) {
+    .bottom {
+        padding: 20px 0;
+    }
+
+    .songInfo {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    #myprogressBar {
+        width: 80%;
+    }
+
+    .icons {
+        max-width: 150px;
+    }
+
+    .icons i {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: space-between; /* Spread items evenly on smaller screens */
+        padding: 0 15px; /* Less padding on smaller screens */
+    }
+
+    nav ul li {
+        padding: 0 10px; /* Reduce padding between menu items on smaller screens */
+        flex: 1; /* Distribute space evenly */
+        text-align: center; /* Center-align the text on smaller screens */
+    }
+
+    .brand {
+        margin-right: 0; /* Reset margin on smaller screens */
+    }
 }
